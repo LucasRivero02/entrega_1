@@ -37,7 +37,7 @@ function proceso(){
    }
    
    function conversorMoneda(numero1, numero2, monedaOrigen) {
-      if(monedaOrigen === "1"){
+      if(monedaOrigen == "1"){
          return numero1 * numero2;
       }else{
          return numero1 / numero2;
