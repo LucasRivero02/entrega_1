@@ -36,11 +36,11 @@ function proceso(){
       monedaOrigen = prompt("Ingrese la moneda origen\n1-Dolar\n2-Pesos\nESC-Salir");
    }
    
-   function conversorMoneda(numeroA, numeroB, monedaOrigen) {
+   function conversorMoneda(numero1, numero2, monedaOrigen) {
       if(monedaOrigen === "1"){
-         return numeroA * numeroB;
+         return numero1 * numero2;
       }else{
-         return numeroA / numeroB;
+         return numero1 / numero2;
       }
    }
 }
