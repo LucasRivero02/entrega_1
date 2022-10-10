@@ -48,7 +48,7 @@ img {
 #main-header {
    background: #333;
    color: white;
-   background-image: url('../images/encabezado.jpg') ;
+   /* background-image: url('../images/encabezado.jpg') ; */
    height: 80px;
 
    width: 80%;
