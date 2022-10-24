@@ -48,7 +48,7 @@ img {
 #main-header {
    background: #333;
    color: white;
-   /* background-image: url('../images/encabezado.jpg') ; */
+   background-image: url('../images/encabezado.jpg') ;
    height: 80px;
 
    width: 80%;
@@ -161,4 +161,17 @@ nav ul li a:hover {
 
 #main-footer a {
    color: white;
+}
+
+.card{
+   border: 5px;
+   border-color: black;
+   width: 40px;
+   background-color: aquamarine;
+   margin-right: 5px;
+}
+
+#catalogo{
+   background-color: white;
+   display: flex;
 }

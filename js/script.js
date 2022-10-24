@@ -20,7 +20,6 @@ function conversion(monedaOrigen, monto, cotizacion){
          return this.resultado = monto / cotizacion;
       }
    }
-   
 }
 
 // proces en el que se ingresan la moneda y montos para convertir
